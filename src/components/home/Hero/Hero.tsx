@@ -1,8 +1,10 @@
+import styles from "./Hero.module.sass";
+
 export const Hero = () => {
   return (
-    <section>
-      <h1>Future World</h1>
-      <h2>Empowering your Tommorow, Today!</h2>
+    <section className={styles.Hero}>
+      <h1>Future world</h1>
+      <h2>Empowering Your Tomorrow, Today!</h2>
     </section>
   );
 };
