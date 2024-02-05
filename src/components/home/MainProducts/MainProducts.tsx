@@ -45,6 +45,10 @@ interface Product {
 export const MainProducts = async () => {
   const products = await getProducts();
 
+  //Back for Frontend
+  // const reponse = await fetch("http://localhost:3000/api");
+  // const { products } = await reponse.json();
+
   return (
     <section className={styles.MainProducts}>
       <h3>✨ New products released!</h3>
