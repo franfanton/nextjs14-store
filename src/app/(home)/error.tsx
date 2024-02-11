@@ -19,8 +19,8 @@ export default function Error({ error, reset }: ErrorProps) {
       }}
     >
       <h1>:c</h1>
-      <p>Oops!, an error has occurred</p>
-      <button onClick={reset}>Try again</button>
+      <p>Ha ocurrido un error</p>
+      <button onClick={reset}>Intentar de nuevo</button>
     </div>
   );
 }
